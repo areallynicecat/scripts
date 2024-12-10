@@ -2,6 +2,7 @@ from selenium.webdriver.common.by import By
 from utils.fill.login_form import fill_login_form
 
 def login(driver):
+    
     # visit the login page
     driver.get('http:localhost:5173/login')
 
